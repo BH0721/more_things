@@ -1,0 +1,667 @@
+{
+  "mod_elements": [
+    {
+      "name": "Help",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "help",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/client/gui/HelpScreen.java",
+          "src/main/java/net/mcreator/morethings/world/inventory/HelpMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Road",
+      "type": "tab",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RoadSign",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/road_sign.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignBlock.java",
+          "src/main/resources/assets/morethings/blockstates/road_sign.json",
+          "src/main/resources/assets/morethings/models/item/road_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignMiddle",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_middle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RoadSignMiddleBlock.java",
+          "src/main/resources/assets/morethings/models/block/road_sign_middle.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_middle.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_middle.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignBase",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RoadSignBaseBlock.java",
+          "src/main/resources/assets/morethings/blockstates/road_sign_base.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_base.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_base.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignPool",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_pool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_pool.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignPoolBlock.java",
+          "src/main/resources/assets/morethings/models/item/road_sign_pool.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_pool.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignMiddle1",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_middle_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_middle_1.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_middle_1.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignMiddle1Block.java",
+          "src/main/resources/assets/morethings/models/item/road_sign_middle_1.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignSide1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_side_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_side_1.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_side_1.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignSide1Block.java",
+          "src/main/resources/assets/morethings/models/item/road_sign_side_1.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTriangleleft",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_triangleleft",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_triangleleft.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_triangleleft.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_triangleleft.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTriangleleftBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTrianglelefttop",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_trianglelefttop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_trianglelefttop.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_trianglelefttop.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_trianglelefttop.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTrianglelefttopBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTrianglemiddle",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_trianglemiddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_trianglemiddle.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_trianglemiddle.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTrianglemiddleBlock.java",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_trianglemiddle.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTrianglemiddletop",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_trianglemiddletop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_trianglemiddletop.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTrianglemiddletopBlock.java",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_trianglemiddletop.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_trianglemiddletop.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTriangleright",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_triangleright",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTrianglerightBlock.java",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_triangleright.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_triangleright.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_triangleright.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalTrianglerighttop",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_trianglerighttop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalTrianglerighttopBlock.java",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_trianglerighttop.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_trianglerighttop.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_trianglerighttop.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignCrossbar",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_crossbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_crossbar.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignCrossbarBlock.java",
+          "src/main/resources/assets/morethings/models/item/road_sign_crossbar.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_crossbar.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVertical",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical.json",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalBlock.java",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalSignSide",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_sign_side",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalSignSideBlock.java",
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_sign_side.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_sign_side.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_sign_side.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadSignVerticalSignMiddle",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_sign_vertical_sign_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/road_sign_vertical_sign_middle.json",
+          "src/main/resources/assets/morethings/models/block/road_sign_vertical_sign_middle.json",
+          "src/main/resources/assets/morethings/models/item/road_sign_vertical_sign_middle.json",
+          "src/main/java/net/mcreator/morethings/block/RoadSignVerticalSignMiddleBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NodeMasking",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "node_masking",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/node_masking.json",
+          "src/main/resources/assets/morethings/blockstates/node_masking.json",
+          "src/main/java/net/mcreator/morethings/block/NodeMaskingBlock.java",
+          "src/main/resources/assets/morethings/models/block/node_masking.json"
+        ]
+      }
+    },
+    {
+      "name": "Helpstart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helpstart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/procedures/HelpstartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HELPBLOCK",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helpblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/HELPBLOCKBlock.java",
+          "src/main/resources/assets/morethings/models/block/helpblock.json",
+          "src/main/resources/assets/morethings/blockstates/helpblock.json",
+          "src/main/resources/assets/morethings/models/item/helpblock.json"
+        ]
+      }
+    },
+    {
+      "name": "LimitedElevatedTransverse",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limited_elevated_transverse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/limited_elevated_transverse.json",
+          "src/main/java/net/mcreator/morethings/block/LimitedElevatedTransverseBlock.java",
+          "src/main/resources/assets/morethings/models/item/limited_elevated_transverse.json",
+          "src/main/resources/assets/morethings/blockstates/limited_elevated_transverse.json"
+        ]
+      }
+    },
+    {
+      "name": "LimitedElevatedSingleSideConnection",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limited_elevated_single_side_connection",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/limited_elevated_single_side_connection.json",
+          "src/main/resources/assets/morethings/models/block/limited_elevated_single_side_connection.json",
+          "src/main/java/net/mcreator/morethings/block/LimitedElevatedSingleSideConnectionBlock.java",
+          "src/main/resources/assets/morethings/models/item/limited_elevated_single_side_connection.json"
+        ]
+      }
+    },
+    {
+      "name": "LimitedElevatedVertical",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limited_elevated_vertical",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/limited_elevated_vertical.json",
+          "src/main/java/net/mcreator/morethings/block/LimitedElevatedVerticalBlock.java",
+          "src/main/resources/assets/morethings/models/item/limited_elevated_vertical.json",
+          "src/main/resources/assets/morethings/models/block/limited_elevated_vertical.json"
+        ]
+      }
+    },
+    {
+      "name": "LicensePlateRecognizer",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "license_plate_recognizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/license_plate_recognizer.json",
+          "src/main/resources/assets/morethings/blockstates/license_plate_recognizer.json",
+          "src/main/java/net/mcreator/morethings/block/LicensePlateRecognizerBlock.java",
+          "src/main/resources/assets/morethings/models/item/license_plate_recognizer.json"
+        ]
+      }
+    },
+    {
+      "name": "Gelidai1",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gelidai_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/gelidai_1.json",
+          "src/main/resources/assets/morethings/models/item/gelidai_1.json",
+          "src/main/java/net/mcreator/morethings/block/Gelidai1Block.java",
+          "src/main/resources/assets/morethings/blockstates/gelidai_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Gelidai2",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gelidai_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/gelidai_2.json",
+          "src/main/resources/assets/morethings/models/item/gelidai_2.json",
+          "src/main/java/net/mcreator/morethings/block/Gelidai2Block.java",
+          "src/main/resources/assets/morethings/models/block/gelidai_2.json"
+        ]
+      }
+    },
+    {
+      "name": "LCD1",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lcd_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/LCD1Block.java",
+          "src/main/resources/assets/morethings/models/block/lcd_1.json",
+          "src/main/resources/assets/morethings/models/item/lcd_1.json",
+          "src/main/resources/assets/morethings/blockstates/lcd_1.json"
+        ]
+      }
+    },
+    {
+      "name": "LCD2",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lcd_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/lcd_2.json",
+          "src/main/resources/assets/morethings/models/block/lcd_2.json",
+          "src/main/java/net/mcreator/morethings/block/LCD2Block.java",
+          "src/main/resources/assets/morethings/blockstates/lcd_2.json"
+        ]
+      }
+    },
+    {
+      "name": "RcL",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/rc_l.json",
+          "src/main/resources/assets/morethings/models/item/rc_l.json",
+          "src/main/resources/assets/morethings/models/block/rc_l.json",
+          "src/main/java/net/mcreator/morethings/block/RcLBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RcM",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_m",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/RcMBlock.java",
+          "src/main/resources/assets/morethings/models/item/rc_m.json",
+          "src/main/resources/assets/morethings/models/block/rc_m.json",
+          "src/main/resources/assets/morethings/blockstates/rc_m.json"
+        ]
+      }
+    },
+    {
+      "name": "T1",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/item/t_1.json",
+          "src/main/resources/assets/morethings/blockstates/t_1.json",
+          "src/main/resources/assets/morethings/models/block/t_1.json",
+          "src/main/java/net/mcreator/morethings/block/T1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "T2",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/morethings/block/T2Block.java",
+          "src/main/resources/assets/morethings/blockstates/t_2.json",
+          "src/main/resources/assets/morethings/models/item/t_2.json",
+          "src/main/resources/assets/morethings/models/block/t_2.json"
+        ]
+      }
+    },
+    {
+      "name": "T3",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/t_3.json",
+          "src/main/resources/assets/morethings/models/block/t_3.json",
+          "src/main/resources/assets/morethings/models/item/t_3.json",
+          "src/main/java/net/mcreator/morethings/block/T3Block.java"
+        ]
+      }
+    },
+    {
+      "name": "T4",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/models/block/t_4.json",
+          "src/main/java/net/mcreator/morethings/block/T4Block.java",
+          "src/main/resources/assets/morethings/models/item/t_4.json",
+          "src/main/resources/assets/morethings/blockstates/t_4.json"
+        ]
+      }
+    },
+    {
+      "name": "T5",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morethings/blockstates/t_5.json",
+          "src/main/resources/assets/morethings/models/item/t_5.json",
+          "src/main/java/net/mcreator/morethings/block/T5Block.java",
+          "src/main/resources/assets/morethings/models/block/t_5.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.morethings.help.label_wait_for_us": "Wait for us",
+      "gui.morethings.help.label_empty": "MoreThings-0.1.3",
+      "block.morethings.road_sign_vertical_sign_middle": "Road Sign Vertical Sign Middle",
+      "gui.morethings.help.button_mcmod": "MCMOD",
+      "block.morethings.road_sign_vertical_trianglelefttop": "Road Sign Vertical Trianglelefttop",
+      "gui.morethings.help.label_urban_construction_and_i": "urban construction, and I",
+      "block.morethings.road_sign_crossbar": "Road Sign Crossbar",
+      "gui.morethings.help.label_been_developing_and_committed_to": "been developing and committed to",
+      "block.morethings.road_sign_middle_1": "Road Sign Middle 1",
+      "block.morethings.road_sign_base": "Road Sign Base",
+      "block.morethings.limited_elevated_transverse": "Limited Elevated Transverse",
+      "block.morethings.road_sign_middle": "双面路牌",
+      "gui.morethings.help.label_create_the_world_we_have": "create the world. We have",
+      "gui.morethings.help.label_about_us": "about us",
+      "block.morethings.limited_elevated_single_side_connection": "Limited Elevated Single Side Connection",
+      "block.morethings.gelidai_2": "隔离带（带柱子）",
+      "block.morethings.gelidai_1": "隔离带",
+      "block.morethings.road_sign_vertical": "Road Sign Vertical",
+      "block.morethings.road_sign_vertical_trianglemiddletop": "Road Sign Vertical Trianglemiddletop",
+      "gui.morethings.help.button_qq": "QQ",
+      "block.morethings.road_sign_vertical_trianglemiddle": "Road Sign Vertical Trianglemiddle",
+      "gui.morethings.help.label_yao_child_bh0721": "Yao_ Child BH0721",
+      "block.morethings.road_sign_vertical_triangleright": "Road Sign Vertical Triangleright",
+      "block.morethings.road_sign_side_1": "Road Sign Side 1",
+      "block.morethings.road_sign_vertical_triangleleft": "Road Sign Vertical Triangleleft",
+      "itemGroup.tabroad": "更多物品",
+      "gui.morethings.help.label_creating_a_perfect_module": "creating a perfect module.",
+      "block.morethings.limited_elevated_vertical": "Limited Elevated Vertical",
+      "gui.morethings.help.label_friendly_developer": "Friendly developer",
+      "block.morethings.road_sign": "单面路牌",
+      "block.morethings.road_sign_pool": "路牌柱",
+      "block.morethings.rc_l": "左侧方摄像头",
+      "block.morethings.rc_m": "摄像头（横杆上）",
+      "gui.morethings.help.button_kook": "KOOK",
+      "block.morethings.t_2": "红绿灯杆（横丁字杆）",
+      "block.morethings.t_3": "红绿灯杆（横杆）",
+      "block.morethings.t_4": "红绿灯杆（未知）",
+      "block.morethings.t_5": "红绿灯杆（竖杆）",
+      "block.morethings.t_1": "红绿灯杆（横杆左侧竖杆）",
+      "gui.morethings.help.label_believe_you_can_use_it_to": "believe you can use it to",
+      "block.morethings.lcd_2": "车站信息导引屏",
+      "block.morethings.lcd_1": "车站信息导引屏(带柱子)",
+      "block.morethings.road_sign_vertical_trianglerighttop": "Road Sign Vertical Trianglerighttop",
+      "block.morethings.license_plate_recognizer": "License Plate Recognizer",
+      "block.morethings.helpblock": "HELPBLOCK",
+      "itemGroup.morethings.road": "[MT]更多物品",
+      "gui.morethings.help.label_this_is_a_great_module_for": "This is a great module for",
+      "block.morethings.node_masking": "Node Masking",
+      "block.morethings.road_sign_vertical_sign_side": "Road Sign Vertical Sign Side"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "morethings",
+    "modName": "MoreThings",
+    "version": "1.0.0",
+    "author": "FXY, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.morethings",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
